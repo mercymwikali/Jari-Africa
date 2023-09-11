@@ -1,7 +1,15 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["./*"]
-    }
+      "@/*": ["*"],
+      "@components/*": ["components/*"],
+      "@utils/*": ["utils/*"],
+      "@styles/*":["styles/*"],
+      "@pages/*":["pages/*"]
+   },
+    "target": "es6",
+    "module": "commonjs"
+    // Add more compiler options as needed
   }
 }
